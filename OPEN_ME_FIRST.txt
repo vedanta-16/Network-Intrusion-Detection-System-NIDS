@@ -1,0 +1,9 @@
+BEFORE RUNNNING THIS TOOL
+
+HIDE FOLDERS GIT & VENV
+
+RENAME git to .git
+
+RENAME venv to .venv
+
+If after hiding this folders it doesn't run then again unhide it.
