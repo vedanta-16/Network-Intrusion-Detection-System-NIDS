@@ -1,3 +1,7 @@
+#!/bin/bash
+
+sudo apt update -y
+sudo apt install python3 -y
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
@@ -7,3 +11,4 @@ python -m src.generate_sample_data --rows 10000 --attack-ratio 0.20
 python -m src.data_collection
 python -m src.train
 python -m streamlit run dashboard/app.py
+sudo apt update -y
