@@ -1,0 +1,6 @@
+[
+  "tests/test_pipeline.py::test_generated_data_has_required_features",
+  "tests/test_pipeline.py::test_prediction_with_trained_artifact",
+  "tests/test_prediction.py::test_prediction_module_imports",
+  "tests/test_preprocessing.py::test_clean_data_removes_duplicates_and_nan"
+]
